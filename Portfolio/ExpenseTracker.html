@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpenseTracker - Paulo's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+</html>
+<body>
+    <!-- Title -->
+    <section class="gradient-background">
+      <div class="container col-xxl-8 px-4 pt-5">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <!-- First Picture -->
+    <div
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-body-tertiary-proj3"
+      bis_skin_checked="1"
+    >
+      <div class=" col-md-6 p-lg-5 mx-auto my-5 " bis_skin_checked="1">
+        
+      </div>
+      <div
+        class="product-device shadow-sm d-none d-md-block"
+        bis_skin_checked="1"
+      ></div>
+      <div
+        class="product-device product-device-2 shadow-sm d-none d-md-block"
+        bis_skin_checked="1"
+      ></div>
+    </div>
+
+    <!-- Project Content -->
+    <section id="project-content">
+      <div class="container py-5">
+        <h1 class="text-body-emphasis display-3 fw-bold lead text-center pic1">ExpenseTracker</h1>
+        <h3 class="fw-normal text-muted mb-3 pic8 lead text-center">Full Stack Web Appliction</h3>
+        <p class="text-body-emphasis lead text-center">
+            Welcome to the "ExpenseTracker" project page.
+This project is a dynamic web application designed to help users track and manage their daily expenses in a simple and efficient way. Whether it's for personal finances or business tracking, ExpenseTracker offers an easy-to-use interface to manage your expenses.
+
+
+        </p>
+
+        <h2 class="mt-4 lead-text-center">How It Works</h2>
+        <p class="lead lead-text-center">
+            The ExpenseTracker app allows users to record, edit, and delete expenses quickly. The frontend is built using standard web technologies such as HTML, CSS, and JavaScript, providing a smooth, responsive experience. When users submit an expense, the data is sent to the backend server, built with Node.js and Express.js. The backend processes the request and interacts with Supabase as the database to store and retrieve expenses. Through a WebSocket connection, all users are updated in real-time, allowing instant reflection of new expenses.
+        </p>
+
+        <h3 class="lead-text-center">Frontend (HTML, CSS, JavaScript)</h3>
+        <p class="lead lead-text-center">
+            The frontend of ExpenseTracker is structured using HTML and CSS for the layout and design, with custom styles ensuring responsiveness and a clean, dark theme. The user interacts with a form where they can input expense descriptions, amounts, and categories. The form submission is handled by JavaScript, which sends the data to the backend via an API call. The frontend also features real-time updates, so users can see their expense lists instantly without page refreshes.
+        </p>
+
+        <h3 class="lead-text-center">Backend (Node.js, Express.js)</h3>
+        <p class="lead text-center">
+            The backend is developed using Node.js, which provides a fast and scalable environment to handle the server-side logic. Express.js is used to create API endpoints that manage expense data (CRUD operations: Create, Read, Update, Delete). Supabase, a cloud-based database, is used for persistent storage of the expenses. WebSocket integration ensures that any updates or deletions of expenses are immediately pushed to all connected users.
+        </p>
+
+        <h3 class="lead-text-center">Data Flow</h3>
+        <p class="lead text-center">
+            When a user submits a new expense, the data is sent to the backend using a POST request. The backend stores this information in the Supabase database and broadcasts the new expense to all connected clients via WebSockets. The frontend is then updated in real time to show the latest data. Similarly, expense deletions or edits are reflected across all connected clients.
+        </p>
+
+        <h3 class="lead-text-center">Key Features</h3>
+        <ul class="lead text-center">
+          <p>
+            The ExpenseTracker app includes several key features that enhance the user experience:
+Real-time updates: Expenses are reflected instantly across all users.
+Add, edit, and delete expenses: Manage your finances easily.
+Responsive design: Works seamlessly across desktops, tablets, and mobile devices.
+Simple and intuitive interface: Easy navigation and fast user interaction.
+          </p>
+        </ul>
+
+        <h2 class="mt-4 text-center">Technologies Used</h2>
+        <ul class="lead text-center">
+          <p>
+            The ExpenseTracker project uses a combination of modern web technologies to ensure both performance and scalability:
+
+Frontend: HTML, CSS, and JavaScript for a responsive and interactive user interface.
+Backend: Node.js and Express.js for server-side logic and API handling.
+Database: Supabase for data storage and real-time updates.
+WebSocket: For real-time communication and updates.
+
+          </p>
+        </ul>
+
+        <h2 class="mt-4 text-center">Future Enhancements</h2>
+        <p class="lead text-center">
+            Future versions of ExpenseTracker could include:
+
+User authentication: Allow users to sign up, log in, and manage their expenses securely.
+Expense filtering and search: Provide users with tools to filter expenses by date, category, or keyword.
+Detailed analytics: Give users insights into their spending habits through charts and reports.
+        </p>
+      </div>
+    </section>
+
+    <!-- Photo -->
+    <section id="testimonial">
+      <div class="my-5" bis_skin_checked="1">
+        <div class=" p-5 text-center bg-body-tertiary-proj3" bis_skin_checked="1">
+          <div class=" container py-5">
+            <h2 class="text-body-emphasis">
+                ExpenseTracker - Full Stack Web Application
+            </h2>
+            <p class="col-lg-8 mx-auto lead mt-2">(Click on the picture)</p>
+            <a class="card card-cover" href="https://github.com/PauloPaulMonayer/ExpenseTracker" target="_blank">
+                <img
+                  src="/images/ExpenseTracker.png"
+                  alt="Today I Learned Project Screenshot"
+                  class="project-image"
+                />
+              </a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2024 All rights reserved by Paulo Monayer</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex social-icons">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="mailto:monayer42@gmail.com"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M502.3 190.8c-6.6-2.9-15.1-2.3-20.8 2.4L264 331.4 30.4 193.1c-5.7-4.7-14.2-5.3-20.8-2.4-6.6 2.9-10.6 9.5-10.6 16.8v239.5c0 19.2 15.6 34.8 34.8 34.8h442.4c19.2 0 34.8-15.6 34.8-34.8V207.6c0-7.2-4-13.9-10.7-16.8zM264 320.5L496 191v-33c0-19.2-15.6-34.8-34.8-34.8H50.8C31.6 123.2 16 138.8 16 158v33l232 129.5 16 .8z"/>
+                  </svg>
+                  
+                  
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.linkedin.com/in/paulo-monayer-a78878260/"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 448 512">
+                    <path d="M100.28 448H7.4V148.9h92.88zm-46.14-338.6c-29.69 0-53.72-24.29-53.72-54.24 0-29.94 24.03-54.25 53.72-54.25 29.71 0 53.72 24.31 53.72 54.25 0 29.95-24.01 54.24-53.72 54.24zm359.12 338.6H311.2v-172.4c0-41.1-.82-93.88-57.17-93.88-57.23 0-65.97 44.68-65.97 90.86V448H95.1V148.9h89.3v40.82h1.29c12.42-23.51 42.68-48.33 87.79-48.33 93.94 0 111.24 61.85 111.24 142.3V448z"/>
+                  </svg>
+                  
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://github.com/PauloPaulMonayer"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.833 2.807 1.304 3.492.998.108-.775.418-1.304.76-1.604-2.665-.305-5.466-1.333-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.404 1.02.005 2.04.137 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.655 1.652.244 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.804 5.62-5.475 5.918.43.37.814 1.1.814 2.22 0 1.606-.015 2.903-.015 3.297 0 .32.218.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </svg>
+              
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+      <!-- או Font Awesome אם אתה משתמש באייקונים אחרים -->
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- קישור לקובץ ה-JavaScript החיצוני -->
+    <script src="/script.js"></script>
+  </body>
+</html>

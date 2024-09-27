@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today I Learned - Paulo's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Title -->
+    <section class="gradient-background">
+      <div class="container col-xxl-8 px-4 pt-5">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <!-- First Picture -->
+    <div
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-body-tertiary-proj1"
+      bis_skin_checked="1"
+    >
+      <div class=" col-md-6 p-lg-5 mx-auto my-5 " bis_skin_checked="1">
+      </div>
+      <div
+        class="product-device shadow-sm d-none d-md-block"
+        bis_skin_checked="1"
+      ></div>
+      <div
+        class="product-device product-device-2 shadow-sm d-none d-md-block"
+        bis_skin_checked="1"
+      ></div>
+    </div>
+
+    <!-- Project Content -->
+    <section id="project-content">
+      <div class="container py-5">
+        <h1 class="display-3 fw-bold pic1 lead text-center">Today I Learned</h1>
+        <h3 class="fw-normal text-muted mb-3 pic8 lead text-center">Full Stack Web Appliction</h3>
+        <p class="lead text-center">
+          Welcome to the "Today I Learned" project page. This project is a
+          web-based tool designed to allow users to record and share daily
+          learnings, whether technical or personal.
+        </p>
+
+        <h2 class="mt-4 lead-text-center">How It Works</h2>
+        <p class="lead lead-text-center">
+          The "Today I Learned" project is designed to allow users to record and
+          manage daily learnings in an intuitive and efficient way. The
+          frontend, built using <strong>React</strong>, provides a seamless and
+          dynamic interface where users can view and submit their learning
+          entries. Once a new entry is submitted, it is sent to the backend,
+          which is powered by <strong>Node.js</strong> and
+          <strong>Express.js</strong>. The backend processes the request and
+          stores the data in a database, such as <strong>MongoDB</strong> or
+          <strong>PostgreSQL</strong>. The data is then retrieved and displayed
+          on the frontend in real-time, allowing users to instantly see their
+          new entries without refreshing the page. This interaction between the
+          frontend and backend ensures a smooth, user-friendly experience, with
+          all updates handled efficiently in the background.
+        </p>
+
+        <h3 class="lead-text-center">Frontend (React)</h3>
+        <p class="lead lead-text-center">
+          The frontend of the "Today I Learned" project is built using
+          <strong>React</strong>, a powerful JavaScript library for creating
+          dynamic and interactive user interfaces. React allows the application
+          to update and render components efficiently, ensuring that changes
+          made by the user, such as adding or editing learning entries, are
+          immediately reflected on the screen. The component-based structure of
+          React makes the code modular and reusable, which improves both
+          development speed and code maintainability. Additionally, React’s
+          state management ensures that user interactions are handled smoothly,
+          providing a seamless experience across the entire application. By
+          leveraging React, the frontend is both responsive and highly
+          interactive, offering users a modern, smooth interface.
+        </p>
+
+        <h3 class="lead-text-center">Backend (Node.js)</h3>
+        <p class="lead text-center">
+          The backend of the "Today I Learned" project is powered by
+          <strong>Node.js</strong>, a runtime environment that enables
+          JavaScript to run on the server side. It handles all the server-side
+          logic and processes the requests made by the frontend. To streamline
+          the development process, <strong>Express.js</strong> is used as a web
+          framework on top of Node.js, allowing for the efficient creation of
+          API endpoints. These endpoints manage CRUD operations—Create, Read,
+          Update, and Delete—enabling users to interact with their learning
+          entries dynamically. Data from the frontend is sent to the backend,
+          where it is processed and stored in a database, such as
+          <strong>MongoDB</strong> or <strong>PostgreSQL</strong>. This
+          structure allows the backend to efficiently manage the data flow,
+          ensure data persistence, and communicate seamlessly with the frontend.
+        </p>
+
+        <h3 class="lead-text-center">Data Flow</h3>
+        <p class="lead text-center">
+          The data flow within the "Today I Learned" project is designed to be
+          seamless and efficient, ensuring that user interactions are handled
+          smoothly. When a user submits new learning entries through the
+          frontend, the data is sent via an API call to the backend, powered by
+          <strong>Node.js</strong> and <strong>Express.js</strong>. The backend
+          processes the request and stores the data in a database such as
+          <strong>MongoDB</strong> or <strong>PostgreSQL</strong>. Once the data
+          is successfully stored, the backend responds to the frontend, allowing
+          React to update the interface in real time, displaying the new entry
+          without the need to refresh the page. This bidirectional communication
+          between the frontend and backend ensures that all changes are
+          immediately visible to the user, providing a smooth and dynamic
+          experience. The entire data flow is optimized for both performance and
+          scalability, ensuring the app can handle multiple requests
+          efficiently.
+        </p>
+
+        <h3 class="lead-text-center">Key Features</h3>
+        <ul class="lead text-center">
+          <p>
+            The website I built includes several key features that enhance both
+            its functionality and user experience. One of the standout aspects
+            is its real-time update capability, which ensures that any new data
+            added to the site is instantly reflected without requiring a page
+            refresh. This is achieved through seamless integration between the
+            frontend and backend. Additionally, the website boasts an
+            interactive user interface, allowing users to easily navigate
+            through different sections, add new content, and make updates to
+            existing entries. Another crucial feature is the mobile-first,
+            responsive design, which ensures that the website looks and
+            functions perfectly across all devices—whether it's a desktop,
+            tablet, or smartphone. These features collectively make the site not
+            only visually appealing but also highly functional and
+            user-friendly.
+          </p>
+        </ul>
+
+        <h2 class="mt-4 text-center">Technologies Used</h2>
+        <ul class="lead text-center">
+          <p>
+            The website is built using a combination of modern web technologies
+            that ensure both performance and scalability. For the frontend, I
+            used <strong>React</strong>, a powerful JavaScript library that
+            allows for the creation of dynamic, responsive user interfaces. On
+            the backend, <strong>Node.js</strong> serves as the runtime
+            environment, handling server-side logic and managing requests from
+            the frontend. The project also uses <strong>Express.js</strong> to
+            create API endpoints efficiently and securely. To store and retrieve
+            data, I integrated a database such as <strong>MongoDB</strong> or
+            <strong>PostgreSQL</strong>, depending on the requirements of the
+            project. For styling and layout, the project utilizes
+            <strong>Bootstrap</strong>, ensuring a responsive design that adapts
+            seamlessly to various devices and screen sizes. These technologies
+            work together to create a highly functional, modern, and
+            user-friendly web application.
+          </p>
+        </ul>
+
+        <h2 class="mt-4 text-center">Future Enhancements</h2>
+        <p class="lead text-center">
+          Looking ahead, there are several planned enhancements for the "Today I
+          Learned" project that will expand its functionality and improve the
+          user experience. One of the main future updates is the implementation
+          of **user authentication**, allowing users to create accounts and
+          manage their own learning entries privately. Additionally, there are
+          plans to integrate a **search and filtering** feature, enabling users
+          to easily find specific entries based on keywords or dates. Another
+          exciting update is the addition of **social sharing options**,
+          allowing users to share their learning entries directly to social
+          media platforms, increasing engagement and interaction. These future
+          enhancements aim to make the app more personalized, versatile, and
+          accessible, providing users with more control over their content and
+          the ability to share their knowledge with a wider audience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Photo -->
+    <section id="testimonial">
+      <div class="my-5" bis_skin_checked="1">
+        <div class=" p-5 text-center bg-body-tertiary" bis_skin_checked="1">
+          <div class=" container py-5">
+            <h2 class="text-body-emphasis">
+              Today I Learned - FullStack Web Application
+            </h2>
+            <p class="col-lg-8 mx-auto lead mt-2">(Click on the picture)</p>
+            <a class="card card-cover" href="https://todayilearnedpaulomonayer.netlify.app/" target="_blank">
+                <img
+                  src="/images/TODAY-I-LEARNED.png"
+                  alt="Today I Learned Project Screenshot"
+                  class="project-image"
+                />
+              </a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2024 All rights reserved by Paulo Monayer</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex social-icons">
+            <li class="ms-3 ">
+              <a class="text-body-secondary" href="mailto:monayer42@gmail.com"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 512 512">
+                  <path d="M502.3 190.8c-6.6-2.9-15.1-2.3-20.8 2.4L264 331.4 30.4 193.1c-5.7-4.7-14.2-5.3-20.8-2.4-6.6 2.9-10.6 9.5-10.6 16.8v239.5c0 19.2 15.6 34.8 34.8 34.8h442.4c19.2 0 34.8-15.6 34.8-34.8V207.6c0-7.2-4-13.9-10.7-16.8zM264 320.5L496 191v-33c0-19.2-15.6-34.8-34.8-34.8H50.8C31.6 123.2 16 138.8 16 158v33l232 129.5 16 .8z"/>
+                </svg>
+                
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.linkedin.com/in/paulo-monayer-a78878260/"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 448 512">
+                  <path d="M100.28 448H7.4V148.9h92.88zm-46.14-338.6c-29.69 0-53.72-24.29-53.72-54.24 0-29.94 24.03-54.25 53.72-54.25 29.71 0 53.72 24.31 53.72 54.25 0 29.95-24.01 54.24-53.72 54.24zm359.12 338.6H311.2v-172.4c0-41.1-.82-93.88-57.17-93.88-57.23 0-65.97 44.68-65.97 90.86V448H95.1V148.9h89.3v40.82h1.29c12.42-23.51 42.68-48.33 87.79-48.33 93.94 0 111.24 61.85 111.24 142.3V448z"/>
+                </svg>
+                
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://github.com/PauloPaulMonayer"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.833 2.807 1.304 3.492.998.108-.775.418-1.304.76-1.604-2.665-.305-5.466-1.333-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.404 1.02.005 2.04.137 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.655 1.652.244 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.804 5.62-5.475 5.918.43.37.814 1.1.814 2.22 0 1.606-.015 2.903-.015 3.297 0 .32.218.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </svg>
+              
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+      <!-- או Font Awesome אם אתה משתמש באייקונים אחרים -->
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- קישור לקובץ ה-JavaScript החיצוני -->
+    <script src="/script.js"></script>
+  </body>
+</html>
